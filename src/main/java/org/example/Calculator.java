@@ -16,4 +16,10 @@ public class Calculator {
         }
         return a /b;
     }
+    public double sqrt(double a){
+        if (a < 0) {
+            throw new IllegalArgumentException("Cannot take the square root of a negative number");
+        }
+        return Math.sqrt(a);
+    }
 }
