@@ -40,4 +40,10 @@ class CalculatorTest {
         assertThrows(IllegalArgumentException.class,()-> calculator.divide(10, 0));
 
     }
+    @Test
+    void sqrt(){
+        assertEquals(2, calculator.sqrt(2));
+
+
+    }
 }
